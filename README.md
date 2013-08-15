@@ -1,4 +1,4 @@
-com.pushwoosh.plugins.pushwoosh
+Pushwoosh SDK for Phonegap/Cordova CLI
 ===============================
 
 Pushwoosh CLI setup
