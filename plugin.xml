@@ -119,6 +119,7 @@
 
     </platform>
     
+<<<<<<< HEAD
 
 	
 	<!-- ios -->
@@ -188,3 +189,6 @@
 </plugin>
 
 
+=======
+</plugin>
+>>>>>>> 85be5d9ceddbc8608c74c9d23ef0981ec6299b35
