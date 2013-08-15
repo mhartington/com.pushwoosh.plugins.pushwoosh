@@ -107,7 +107,7 @@
         </feature>
      </config-file>
 
-		<config-file target="res/xml/config.xml" parent="/cordova">
+		<config-file target="res/xml/config.xml" parent="/*">
             <access origin="https://cp.pushwoosh.com" subdomains="true" />
         </config-file>
 		
@@ -119,4 +119,72 @@
 
     </platform>
     
+
+	
+	<!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="PushNotification"
+            	<param name="ios-package" value="PushNotification" />
+				<param name="onload" value="true"/>
+			</feature>        
+        	
+			<access origin="*.pushwoosh.com" />
+		</config-file>
+
+        <header-file src="src/PushNotification.h" />
+        <source-file src="src/PushNotification.m" />
+		
+        <header-file src="src/HtmlWebViewController.h" />
+        <source-file src="src/HtmlWebViewController.m" />
+
+        <header-file src="src/PushNotificationManager.h" />
+        <source-file src="src/PushNotificationManager.m" />
+
+        <header-file src="src/PWGetNearestZoneRequest.h" />
+        <source-file src="src/PWGetNearestZoneRequest.m" />
+
+        <header-file src="src/PWApplicationEventRequest.h" />
+        <source-file src="src/PWApplicationEventRequest.m" />
+
+        <header-file src="src/PWPushStatRequest.h" />
+        <source-file src="src/PWPushStatRequest.m" />
+
+        <header-file src="src/PWRegisterDeviceRequest.h" />
+        <source-file src="src/PWRegisterDeviceRequest.m" />
+
+        <header-file src="src/PWRequest.h" />
+        <source-file src="src/PWRequest.m" />
+
+        <header-file src="src/PWRequestManager.h" />
+        <source-file src="src/PWRequestManager.m" />
+
+        <header-file src="src/PWSetTagsRequest.h" />
+        <source-file src="src/PWSetTagsRequest.m" />
+
+        <header-file src="src/PWAppOpenRequest.h" />
+        <source-file src="src/PWAppOpenRequest.m" />
+		
+        <header-file src="src/PWSendBadgeRequest.h" />
+        <source-file src="src/PWSendBadgeRequest.m" />
+
+        <header-file src="src/PWLocationTracker.h" />
+        <source-file src="src/PWLocationTracker.m" />
+
+        <header-file src="src/PW_SBJsonBase.h" />
+        <source-file src="src/PW_SBJsonBase.m" />
+
+        <header-file src="src/PW_SBJsonParser.h" />
+        <source-file src="src/PW_SBJsonParser.m" />
+
+        <header-file src="src/PW_SBJsonWriter.h" />
+        <source-file src="src/PW_SBJsonWriter.m" />
+
+        <header-file src="src/PushRuntime.h" />
+        <source-file src="src/PushRuntime.m" />
+    </platform>
+	
+	
 </plugin>
+
+
