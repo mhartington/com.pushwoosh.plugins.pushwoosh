@@ -132,56 +132,61 @@
 			<access origin="*.pushwoosh.com" />
 		</config-file>
 
-       <header-file src="src/ios/PushNotification.h" />
-        <source-file src="src/ios/PushNotification.m" />
-		
-        <header-file src="src/ios/HtmlWebViewController.h" />
-        <source-file src="src/ios/HtmlWebViewController.m" />
+				<header-file src="src/ios/HtmlWebViewController.h" />
+				<source-file src="src/ios/HtmlWebViewController.m" />
+				
+				<header-file src="src/ios/PushNotification.h" />
+				<source-file src="src/ios/PushNotification.m" />
+				
+				<header-file src="src/ios/PushNotificationManager.h" />
+				<source-file src="src/ios/PushNotificationManager.m" />
+				
+				<header-file src="src/ios/PushRuntime.h" />
+				<source-file src="src/ios/PushRuntime.m" />
+				
+				<header-file src="src/ios/PW_SBJsonBase.h" />
+				<source-file src="src/ios/PW_SBJsonBase.m" />
+				
+				<header-file src="src/ios/PW_SBJsonParser.h" />
+				<source-file src="src/ios/PW_SBJsonParser.m" />
+				
+				<header-file src="src/ios/PW_SBJsonWriter.h" />
+				<source-file src="src/ios/PW_SBJsonWriter.m" />
+				
+				<header-file src="src/ios/PWApplicationEventRequest.h" />
+				<source-file src="src/ios/PWApplicationEventRequest.m" />
+				
+				<header-file src="src/ios/PWAppOpenRequest.h" />
+				<source-file src="src/ios/PWAppOpenRequest.m" />
+				
+				<header-file src="src/ios/PWGetNearestZoneRequest.h" />
+				<source-file src="src/ios/PWGetNearestZoneRequest.m" />
+				
+				<header-file src="src/ios/PWGetTagsRequest.h" />
+				<source-file src="src/ios/PWGetTagsRequest.m" />
+				
+				<header-file src="src/ios/PWLocationTracker.h" />
+				<source-file src="src/ios/PWLocationTracker.m" />
+				
+				<header-file src="src/ios/PWPushStatRequest.h" />
+				<source-file src="src/ios/PWPushStatRequest.m" />
+				
+				<header-file src="src/ios/PWRegisterDeviceRequest.h" />
+				<source-file src="src/ios/PWRegisterDeviceRequest.m" />
+				
+				<header-file src="src/ios/PWRequest.h" />
+				<source-file src="src/ios/PWRequest.m" />
+				
+				
+				<header-file src="src/ios/PWRequestManager.h" />
+				<source-file src="src/ios/PWRequestManager.m" />
+				
+				<header-file src="src/ios/PWSendBadgeRequest.h" />
+				<source-file src="src/ios/PWSendBadgeRequest.m" />
+				
+				<header-file src="src/ios/PWSetTagsRequest.h" />
+				<source-file src="src/ios/PWSetTagsRequest.m" />
 
-        <header-file src="src/ios/PushNotificationManager.h" />
-        <source-file src="src/ios/PushNotificationManager.m" />
-
-        <header-file src="src/ios/PWGetNearestZoneRequest.h" />
-        <source-file src="src/ios/PWGetNearestZoneRequest.m" />
-
-        <header-file src="src/ios/PWApplicationEventRequest.h" />
-        <source-file src="src/ios/PWApplicationEventRequest.m" />
-
-        <header-file src="src/ios/PWPushStatRequest.h" />
-        <source-file src="src/ios/PWPushStatRequest.m" />
-
-        <header-file src="src/ios/PWRegisterDeviceRequest.h" />
-        <source-file src="src/ios/PWRegisterDeviceRequest.m" />
-
-        <header-file src="src/ios/PWRequest.h" />
-        <source-file src="src/ios/PWRequest.m" />
-
-        <header-file src="src/ios/PWRequestManager.h" />
-        <source-file src="src/ios/PWRequestManager.m" />
-
-        <header-file src="src/ios/PWSetTagsRequest.h" />
-        <source-file src="src/ios/PWSetTagsRequest.m" />
-
-        <header-file src="src/ios/PWAppOpenRequest.h" />
-        <source-file src="src/ios/PWAppOpenRequest.m" />
-		
-        <header-file src="src/ios/PWSendBadgeRequest.h" />
-        <source-file src="src/ios/PWSendBadgeRequest.m" />
-
-        <header-file src="src/ios/PWLocationTracker.h" />
-        <source-file src="src/ios/PWLocationTracker.m" />
-
-        <header-file src="src/ios/PW_SBJsonBase.h" />
-        <source-file src="src/ios/PW_SBJsonBase.m" />
-
-        <header-file src="src/ios/PW_SBJsonParser.h" />
-        <source-file src="src/ios/PW_SBJsonParser.m" />
-
-        <header-file src="src/ios/PW_SBJsonWriter.h" />
-        <source-file src="src/ios/PW_SBJsonWriter.m" />
-
-        <header-file src="src/ios/PushRuntime.h" />
-        <source-file src="src/ios/PushRuntime.m" />
     </platform>
 	
 	
