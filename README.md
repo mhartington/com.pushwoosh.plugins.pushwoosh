@@ -14,3 +14,6 @@ To remove:
 $ cordova plugin rm com.pushwoosh.plugins.pushwoosh
 
 This is just a test of automatic intergration via the command line interface. 
+
+These include everything needed to add push notifications from pushwoosh except for the index.js (as named on their github) which changes on ios and android. 
+Download a copy of those .js files and change them to fit your needs
